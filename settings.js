@@ -140,10 +140,10 @@ HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HERO
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,        
 //////////////////////////////////////////////////////////
 
-INBOX_USER: process.env.INBOX_USER === undefined ? '22893658951' : process.env.INBOX_USER,
+INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,
 //////////////////////////////////////////////////////////
 
-BANNED_USER: process.env.BANNED_USER === undefined ? '22893658951' : process.env.BANNED_USER ,    //banned user number 
+BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USER ,    //banned user number 
 //////////////////////////////////////////////////////////
 
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE, //true or false
