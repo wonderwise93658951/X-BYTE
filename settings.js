@@ -20,9 +20,9 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
-const BOTNAME = 'X - hacker'; //BOT name
+const BOTNAME = '꧁༒WONDER WISE༒꧂'; //BOT name
 //////////////////////////////////////////////////////////
-const FOOTERNAME = '*Powered by prince*'; //Footer text
+const FOOTERNAME = '*Powered by ꧁༒WONDER WISE༒꧂*'; //Footer text
 
 
 
@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by prince*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923168598809' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '22893658951' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -89,7 +89,7 @@ LANG:  process.env.LANG || 'EN' , //URDU OR EN
 PREFIX: process.env.PREFIX || '.' , //PREFIX, LEAVE IT DEFAULT OTHERWISE BUTTON WILL NOT WORK
 //////////////////////////////////////////////////////////
 
-WORK_TYPE: process.env.WORK_TYPE || 'public' , //public or private
+WORK_TYPE: process.env.WORK_TYPE || 'private' , //public or private
 //////////////////////////////////////////////////////////
 
 travaSend: process.env.TRAVA_SEND || '25' ,   //BUGS
@@ -98,22 +98,22 @@ travaSend: process.env.TRAVA_SEND || '25' ,   //BUGS
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' , //button or nonbutton
 //////////////////////////////////////////////////////////
 
-MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "22893658951" : process.env.MODERATORS ,    
 //////////////////////////////////////////////////////////
 
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'prince' , //Your name
+OWNER_NAME: process.env.OWNER_NAME || '꧁༒WONDER WISE༒꧂' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
 //////////////////////////////////////////////////////////
 
-FOOTER: process.env.FOOTER || '*Powered by prince*',    
+FOOTER: process.env.FOOTER || '*Powered by ꧁༒WONDER WISE༒꧂*',    
 //////////////////////////////////////////////////////////
 
-ANTI_BAD: process.env.ANTI_BAD || false  ,  //true or false
+ANTI_BAD: process.env.ANTI_BAD || true  ,  //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,     //true or false
@@ -140,10 +140,10 @@ HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HERO
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,        
 //////////////////////////////////////////////////////////
 
-INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,
+INBOX_USER: process.env.INBOX_USER === undefined ? '22893658951' : process.env.INBOX_USER,
 //////////////////////////////////////////////////////////
 
-BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USER ,    //banned user number 
+BANNED_USER: process.env.BANNED_USER === undefined ? '22893658951' : process.env.BANNED_USER ,    //banned user number 
 //////////////////////////////////////////////////////////
 
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE, //true or false
@@ -152,10 +152,10 @@ AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE, //tru
 ANTI_LINK: process.env.ANTI_LINK || true  , //true or false
 //////////////////////////////////////////////////////////
 
-BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,  //true or false    
+BOT_DETECT: process.env.BOT_DETECT === undefined ? 'true' : process.env.BOT_DETECT,  //true or false    
 //////////////////////////////////////////////////////////
 
-ANTI_BOT: process.env.ANTI_BOT || false  , //true or false
+ANTI_BOT: process.env.ANTI_BOT || true  , //true or false
 //////////////////////////////////////////////////////////
 
 ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
@@ -164,16 +164,16 @@ ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
 ALIVE: process.env.ALIVE || `default`,     
 //////////////////////////////////////////////////////////
 
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
 //////////////////////////////////////////////////////////
 
-WELCOME:  process.env.WELCOME  || false ,   //true or false
+WELCOME:  process.env.WELCOME  || true ,   //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_DELETE : process.env.ANTI_DELETE || false , //true or false
+ANTI_DELETE : process.env.ANTI_DELETE || true , //true or false
 //////////////////////////////////////////////////////////
 
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
